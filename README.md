@@ -2,7 +2,7 @@
 
 **A terminal Kanban board backed entirely by local Markdown files in a .kardboard directory, keeping task management frictionless and git-native.**
 
-<!-- THE PROBLEM: 2-3 concrete lines on the annoying thing this removes. -->
+External project management tools force you out of your editor, require messy web UI clicks, and fragment your project context away from your source code. Kardboard removes the context switch of heavy issue trackers by keeping every task, note, and column state right inside your repository as plain text.
 
 ## Example
 
