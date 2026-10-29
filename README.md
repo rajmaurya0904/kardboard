@@ -24,7 +24,10 @@ pip install -e ".[dev]"
 
 ## Limitations
 
-<!-- Honest and short: what it does NOT do, known gaps. -->
+- Single-user: the board is a set of local files; there is no multi-user editing or locking.
+- No authentication: anyone with access to the directory can read and modify the board.
+- Local-only: everything lives in `.kardboard/` inside your working tree; there is no server component.
+- No remote sync: Kardboard does not push, pull, or merge boards across machines — use git for that.
 
 ## Development
 
